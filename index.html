@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>CineFlix</title>
+</head>
+<body class="home">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="homepage.html">CineFlix</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="films.html">Films</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="series.html">Series</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="profile.html">Profile</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="login.html">Logout</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-12">
+                <!-- Popular Section -->
+<section class="mb-4">
+    <h2>Popular</h2>
+    <div id="popularCarousel" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <!-- Popular Film 1: Dune -->
+            <div class="carousel-item active">
+                <img src="https://www.noice.id/wp-content/uploads/2023/03/sinopsis-dune.jpg" class="d-block w-100 carousel-img" alt="Dune Poster">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Dune</h5>
+                    <p>A journey into the unknown, Dune explores the vast desert landscapes and the mysteries it holds.</p>
+                </div>
+            </div>
+
+            <!-- Popular Series 1: Squid Game -->
+            <div class="carousel-item">
+                <img src="https://ntvb.tmsimg.com/assets/p20492187_b_h8_aa.jpg?w=960&h=540" class="d-block w-100 carousel-img" alt="Squid Game Poster">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Squid Game</h5>
+                    <p>In a high-stakes game, contestants compete for their lives in a deadly competition known as Squid Game.</p>
+                </div>
+            </div>
+
+            <!-- Popular Film 2: No Time to Die -->
+            <div class="carousel-item">
+                <img src="https://studio.mrngroup.co/storage/app/media/NO%20TIME%20TO%20DIE-20200709100919.jpg?tr=w-600" class="d-block w-100 carousel-img" alt="No Time to Die Poster">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>No Time to Die</h5>
+                    <p>James Bond returns in a thrilling adventure to save the world from imminent danger.</p>
+                </div>
+            </div>
+
+            <!-- Popular Series 2: The Mandalorian -->
+            <div class="carousel-item">
+                <img src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/4826879538A92B52B2B316E2E9D5A1BEC5C774C094FF9F96E3265E0D4220E3E6/scale?width=1200&aspectRatio=1.78&format=jpeg" class="d-block w-100 carousel-img" alt="The Mandalorian Poster">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>The Mandalorian</h5>
+                    <p>Join the Mandalorian on a quest across the galaxy in this action-packed Star Wars series.</p>
+                </div>
+            </div>
+
+            <!-- Popular Film 3: Spider-Man: No Way Home -->
+            <div class="carousel-item">
+                <img src="https://www.hotelmurah.com/ceritawisata/wp-content/uploads/2023/04/nonton-spider-man-no-way-home.jpg" class="d-block w-100 carousel-img" alt="Spider-Man: No Way Home Poster">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Spider-Man: No Way Home</h5>
+                    <p>Spider-Man faces new challenges and multiverse mayhem in this thrilling cinematic adventure.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Add navigation controls -->
+        <a class="carousel-control-prev" href="#popularCarousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#popularCarousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+</section>
+
+                <!-- Films Section -->
+                <section class="mb-4">
+                    <h2>Films</h2>
+                    <div class="row">
+                        <!-- Film 1: Dune -->
+                        <div class="col-md-4">
+                            <div class="card mb-4">
+                                <img src="https://www.noice.id/wp-content/uploads/2023/03/sinopsis-dune.jpg" class="card-img-top" alt="Dune Poster">
+                                <div class="card-body">
+                                    <h5 class="card-title">Dune</h5>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Film 2: No Time to Die -->
+                        <div class="col-md-4">
+                            <div class="card mb-4">
+                                <img src="https://studio.mrngroup.co/storage/app/media/NO%20TIME%20TO%20DIE-20200709100919.jpg?tr=w-600" class="card-img-top" alt="No Time to Die Poster">
+                                <div class="card-body">
+                                    <h5 class="card-title">No Time to Die</h5>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Film 3: Spider-Man: No Way Home -->
+                        <div class="col-md-4">
+                            <div class="card mb-4">
+                                <img src="https://www.hotelmurah.com/ceritawisata/wp-content/uploads/2023/04/nonton-spider-man-no-way-home.jpg" class="card-img-top" alt="Spider-Man: No Way Home Poster">
+                                <div class="card-body">
+                                    <h5 class="card-title">Spider-Man: No Way Home</h5>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Film 4: Black Widow -->
+                        <div class="col-md-4">
+                            <div class="card mb-4">
+                                <img src="https://www.layar.id/wp-content/uploads/2019/02/POSTER.jpg" class="card-img-top" alt="Black Widow Poster">
+                                <div class="card-body">
+                                    <h5 class="card-title">Black Widow</h5>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Film 5: The Suicide Squad -->
+                        <div class="col-md-4">
+                            <div class="card mb-4">
+                                <img src="https://dkfhw9rzsr80z.cloudfront.net/WBT-ID-001-A1060/artworks/posters/WBT-ID-001-A1060-P704.jpg?hash=1635903165000" class="card-img-top" alt="The Suicide Squad Poster">
+                                <div class="card-body">
+                                    <h5 class="card-title">The Suicide Squad</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Series Section -->
+                <section class="mb-4">
+                    <h2>Series</h2>
+                    <div class="row">
+                        <!-- Series 1: Squid Game -->
+                        <div class="col-md-4">
+                            <div class="card mb-4">
+                                <img src="https://ntvb.tmsimg.com/assets/p20492187_b_h8_aa.jpg?w=960&h=540" class="card-img-top" alt="Squid Game Poster">
+                                <div class="card-body">
+                                    <h5 class="card-title">Squid Game</h5>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Series 2: The Mandalorian -->
+                        <div class="col-md-4">
+                            <div class="card mb-4">
+                                <img src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/4826879538A92B52B2B316E2E9D5A1BEC5C774C094FF9F96E3265E0D4220E3E6/scale?width=1200&aspectRatio=1.78&format=jpeg" class="card-img-top" alt="The Mandalorian Poster">
+                                <div class="card-body">
+                                    <h5 class="card-title">The Mandalorian</h5>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Series 3: WandaVision -->
+                        <div class="col-md-4">
+                            <div class="card mb-4">
+                                <img src="https://www.blibli.com/friends-backend/wp-content/uploads/2023/11/B1100455-Cover-Sinopsis-WandaVision.jpg" class="card-img-top" alt="WandaVision Poster">
+                                <div class="card-body">
+                                    <h5 class="card-title">WandaVision</h5>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Series 4: Money Heist -->
+                        <div class="col-md-4">
+                            <div class="card mb-4">
+                                <img src="https://feedsnitt.com/wp-content/uploads/2019/10/Money-Heist.png" class="card-img-top" alt="Money Heist Poster">
+                                <div class="card-body">
+                                    <h5 class="card-title">Money Heist</h5>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Series 5: Stranger Things -->
+                        <div class="col-md-4">
+                            <div class="card mb-4">
+                                <img src="https://images.thedirect.com/media/article_full/stranger-1.jpg" class="card-img-top" alt="Stranger Things Poster">
+                                <div class="card-body">
+                                    <h5 class="card-title">Stranger Things</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <!-- Include scripts -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>

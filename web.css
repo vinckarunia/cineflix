@@ -1,0 +1,312 @@
+/* NAVBAR */
+.navbar {
+    background-color: #e50914; /* Netflix red color */
+    position: sticky;
+    width: 100%;
+    z-index: 1000;
+    margin: 0;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.navbar-nav .nav-item {
+    margin-right: 10px;
+}
+
+.navbar-nav .nav-link {
+    color: #fff;
+    transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #b2070a; /* Darker shade for hover effect */
+}
+
+
+
+/* LOGIN PAGE */
+.login {
+    background-image: url('./login-bg.jpg'); /* Path to your background image */
+    background-size: fit;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff; /* Light text color */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Modern font */
+    align-items: center;
+    justify-content: center;
+    margin: 0, 25px;
+}
+
+.container {
+    width: 90%;
+    max-width: 800px; /* Increased maximum width for the container */
+}
+
+.card {
+    background-color: #1c1c1c; /* Dark card background color */
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2); /* Slight box shadow */
+}
+
+.card-header {
+    background-color: #e50914; /* Netflix red color */
+    color: #fff;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    text-align: center; /* Center the login title */
+}
+
+.card-body {
+    padding: 40px;
+}
+
+.form-group {
+    margin-bottom: 30px;
+}
+
+.form-control {
+    background-color: #2c2c2c; /* Dark form input background color */
+    color: #fff; /* Light text color */
+    border: none;
+    border-bottom: 2px solid #e50914; /* Netflix red color for the bottom border */
+    border-radius: 0;
+}
+
+.form-control:focus {
+    background-color: #2c2c2c; /* Dark background color on focus */
+    border-color: #e50914; /* Netflix red color on focus */
+    box-shadow: none;
+}
+
+.btn-primary {
+    background-color: #e50914; /* Netflix red color */
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.btn-primary:hover {
+    background-color: #b2070a; /* Darker shade for hover effect */
+}
+
+
+/* SIGN UP PAGE */
+
+
+/* HOMEPAGE */
+.home {
+    background-color: #111; /* Dark background color for the home page */
+    color: #fff; /* Light text color */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Modern font */
+    margin: 0, 25px; /* Margin around the entire page */
+}
+
+.home h2 {
+    color: #e50914; /* Netflix red color for section headings */
+}
+
+.home .card {
+    background-color: #1c1c1c; /* Dark card background color */
+    border: none; /* Remove border */
+    border-radius: 15px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2); /* Slight box shadow */
+    margin-bottom: 20px; /* Add margin to separate cards */
+}
+
+.home .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.home .card-title {
+    color: #fff; /* Light text color for card titles */
+}
+
+.home .card-body {
+    padding: 20px;
+}
+
+.home .container {
+    width: 95%; /* Adjust the width percentage as needed */
+    max-width: 1200px; /* Increased maximum width for the container */
+}
+
+#popularCarousel {
+    width: 100%; /* Full-width carousel */
+}
+
+.carousel-img {
+    height: 400px; /* Set a fixed height for the carousel images */
+    object-fit: cover; /* Ensure the aspect ratio is maintained while covering the entire container */
+}
+
+.carousel-caption {
+    background: rgba(0, 0, 0, 0.7); /* Semi-transparent black background for better readability */
+    color: #fff; /* White text color */
+    border-radius: 10px; /* Rounded corners for the caption */
+    padding: 15px; /* Padding for the caption */
+}
+
+.container {
+    max-width: 90%; /* Adjusted maximum width for the container */
+}
+
+.card {
+    width: 100%; /* Make the cards within the container full-width */
+}
+
+.card-img-top {
+    height: 300px; /* Set a fixed height for film and series images in the cards */
+    object-fit: cover; /* Ensure the aspect ratio is maintained while covering the entire card */
+}
+
+.container {
+    max-width: 90%; /* Adjusted maximum width for the container */
+}
+
+.card {
+    width: 100%; /* Make the cards within the container full-width */
+}
+
+.card-img-top {
+    height: 300px; /* Set a fixed height for film and series images in the cards */
+    object-fit: cover; /* Ensure the aspect ratio is maintained while covering the entire card */
+}
+
+/* FILMS */
+.films {
+    background-color: #1c1c1c; /* Dark background color */
+    color: #fff; /* Light text color */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Modern font */
+}
+
+.film-img {
+    max-width: 100%; /* Ensure images don't exceed their container */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px; /* Add some border-radius for a smooth look */
+    margin-bottom: 10px; /* Add space below each image */
+}
+
+.card-title {
+    color: #e50914; /* Netflix red color for film titles */
+}
+
+.card-text {
+    font-size: 14px; /* Adjust the font size for the synopsis */
+}
+
+.container {
+    width: 90%;
+    max-width: 800px; /* Set a maximum width for better readability */
+}
+
+.mb-4 {
+    margin-bottom: 20px;
+}
+
+
+/* SERIES */
+body.series {
+    background-color: #1c1c1c;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff; /* Light text color */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Modern font */
+    padding-top: 70px; /* Adjusted top padding for the navbar */
+}
+
+.series-img {
+    height: 100%; /* Make sure the series images fill the entire height of the card */
+    object-fit: cover; /* Avoid image distortion */
+}
+
+.container {
+    width: 90%;
+    max-width: 800px; /* Increased maximum width for the container */
+}
+
+.card {
+    background-color: #1c1c1c; /* Dark card background color */
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2); /* Slight box shadow */
+}
+
+.card-body {
+    padding: 20px; /* Adjusted padding for series cards */
+}
+
+.card-title {
+    font-size: 1.5rem; /* Increased font size for series titles */
+}
+
+.card-text {
+    font-size: 1rem; /* Adjusted font size for series synopsis */
+}
+
+.text-muted {
+    opacity: 0.7; /* Reduced opacity for the release year and total episodes */
+}
+
+
+/* PROFILE */
+.profile {
+    background-color: #1c1c1c;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff; /* Light text color */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Modern font */
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0, 25px;
+}
+
+.container {
+    width: 90%;
+    max-width: 800px; /* Increased maximum width for the container */
+}
+
+.card {
+    background-color: #1c1c1c; /* Dark card background color */
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2); /* Slight box shadow */
+}
+
+.profile-card-header {
+    color: #e50914;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    text-align: center; /* Center the profile title */
+}
+
+.card-body {
+    padding: 40px;
+}
+
+.card-subtitle {
+    color: #e50914; /* Netflix red color */
+}
+
+.list-group-item {
+    background-color: #2c2c2c; /* Dark list item background color */
+    color: #fff; /* Light text color */
+    border: none;
+}
+
+.list-group-item:hover {
+    background-color: #1c1c1c; /* Darker shade for hover effect */
+}
+
+/* GENERAL */
+body {
+margin: 0;
+padding: 0;
